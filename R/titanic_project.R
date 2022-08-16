@@ -124,7 +124,7 @@ train_data$pred_Survived2 <- ifelse(predict_train2 >= 0.5, "Yes", "No")
 matrix_train2 <- table(train_data$pred_Survived2, train_data$Survived,
                       dnn = c("Predict", "Actual"))
 
-# ---------------- train - test model 1 --------------------------------
+# ---------------- train - test model 2 --------------------------------
 # model predict Survived (in test data)
 predict_test2 <- predict(model2, newdata = test_data, type = "response")
 test_data$pred_Survived2 <- ifelse(predict_test2 >= 0.5, "Yes", "No")
