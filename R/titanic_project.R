@@ -1,3 +1,5 @@
+# In this project, I created a "Logistic Regression Model' to predict which passengers survived the Titanic
+
 library(titanic)
 library(tidyverse)
 library(ggplot2)
@@ -134,6 +136,8 @@ matrix_test2 <- table(test_data$pred_Survived2, test_data$Survived,
 # Compare Accurracy between test and train model
 cat("Accurracy train model2 : ", (matrix_train2[1,1] + matrix_train2[2,2])/sum(matrix_train2) * 100, "%",
     "\nAccurracy test model2 : ", (matrix_test2[1,1] + matrix_test2[2,2])/sum(matrix_test2) * 100, "%")
+
+## After adjusting the model, Model 2 has less over-fitting than Model 1.
 
 
 
