@@ -92,7 +92,7 @@ CREATE TABLE Orders (
     order_date DATE,
     customer_id INT,
     location_id INT,
-    total_price INT,
+    total_price REAL,
     PRIMARY KEY(order_id),
     FOREIGN KEY(customer_id) REFERENCES Customer(customer_id),
     FOREIGN KEY(location_id) REFERENCES Location(location_id)
