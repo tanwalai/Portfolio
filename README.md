@@ -1,8 +1,10 @@
-# Data-Science_Bootcamp
-my project in datarockie data science bootcamp.
+# Welcome to my portfolio 
 
-These are the projects I completed during my data science bootcamp, including
+These are the projects I completed during my data practice, including
 - SQL
 - R
 - Python
 - Dashboard : data studio, tableau, powerBI
+
+If you have any question please feel free to contact 
+email : tanwalai.y@gmail.com
