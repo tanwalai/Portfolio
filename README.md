@@ -6,5 +6,5 @@ These are the projects I completed during my data practice, including
 - Python
 - Dashboard : data studio, tableau, powerBI
 
-If you have any question please feel free to contact 
+If you have any question please feel free to contact me.
 email : tanwalai.y@gmail.com
