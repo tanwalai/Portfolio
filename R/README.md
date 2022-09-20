@@ -1,1 +1,1 @@
-Welcome to my R project
+This folder contains my project using R :D
