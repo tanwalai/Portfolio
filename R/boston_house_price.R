@@ -1,4 +1,4 @@
-# Instrall packages
+# Install packages
 install.packages("mlbench")
 
 library(tidyverse) ; library(caret) ; library(corrplot) ; library(ggmosaic)
